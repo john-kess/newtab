@@ -74,13 +74,13 @@ let CONFIG = {
       quickLaunch: true,
     },
     {
-      category: 'Fun',
-      name: 'YouTube',
-      key: 'y',
-      url: 'https://youtube.com',
-      search: '/results?search_query={}',
-      color: 'linear-gradient(135deg, #cd201f, #cd4c1f)',
-      icon: 'youtube',
+      category: 'Social',
+      name: 'Reddit',
+      key: 'r',
+      url: 'https://reddit.com',
+      search: '/search?q={}',
+      color: 'linear-gradient(135deg, #FF8456, #FF4500)',
+      icon: 'reddit',
       quickLaunch: false,
     },
     {
@@ -88,7 +88,7 @@ let CONFIG = {
       name: 'Steam',
       key: 's',
       url: 'https://store.steampowered.com',
-      search: '/search/?term=test',
+      search: '/search/?term={}',
       color: 'linear-gradient(135deg, #05142d, #0b7bad)',
       icon: 'netflix',
       quickLaunch: false,
@@ -104,32 +104,32 @@ let CONFIG = {
       quickLaunch: false,
     },
     {
-      category: 'Other',
-      name: 'Reddit',
-      key: 'r',
-      url: 'https://reddit.com',
-      search: '/search?q={}',
-      color: 'linear-gradient(135deg, #FF8456, #FF4500)',
+      category: 'Shopping',
+      name: 'Amazon',
+      key: 'a',
+      url: 'https://amazon.com',
+      search: '/s?k={}',
+      color: 'linear-gradient(135deg, #FF9900, #232F3E)',
       icon: 'reddit',
       quickLaunch: false,
     },
     {
-      category: 'Other',
-      name: 'Twitter',
-      key: 't',
-      url: 'https://twitter.com',
-      search: '/search?q={}&src=typed_query',
-      color: 'linear-gradient(135deg, #1DA1F2, #19608F)',
+      category: 'Shopping',
+      name: 'SlickDeals',
+      key: 'sd',
+      url: 'https://slickdeals.net',
+      search: '/newsearch.php?src=SearchBarV2&q={}',
+      color: 'linear-gradient(135deg, #1DA1F2, #31393F)',
       icon: 'twitter',
       quickLaunch: true,
     },
     {
-      category: 'Other',
-      name: 'IMDb',
-      key: 'i',
+      category: 'Games',
+      name: 'Chrono',
+      key: 'c',
       url: 'https://imdb.com',
       search: '/find?ref_=nv_sr_fn&q={}',
-      color: 'linear-gradient(135deg, #7A5F00, #E8B708)',
+      color: 'linear-gradient(135deg, #0372BB, #E8B708)',
       icon: 'imdb',
       quickLaunch: false,
     },
@@ -160,7 +160,7 @@ let CONFIG = {
    */
   defaultSuggestions: {
     g: ['g/issues', 'g/pulls', 'gist.github.com'],
-    r: ['r/r/unixporn', 'r/r/startpages', 'r/r/webdev', 'r/r/technology'],
+    r: ['r/r/mechanicalkeyboards', 'r/r/gaming', 'r/r/gamedeals', 'r/r/space'],
   },
 
   /**
@@ -187,7 +187,7 @@ let CONFIG = {
   /**
    * Show keys instead of icons
    */
-  showKeys: false,
+  showKeys: true,
 
   /**
    * The delimiter between a command key and your search query. For example,
@@ -209,7 +209,7 @@ let CONFIG = {
   /**
    * Show a twenty-four-hour clock instead of a twelve-hour clock with AM/PM.
    */
-  twentyFourHourClock: true,
+  twentyFourHourClock: false,
 };
 
 // Get invertedColors preference from cookies
