@@ -10,8 +10,8 @@ let CONFIG = {
     {
       name: 'Google',
       key: '*',
-      url: 'https://www.google.com',
-      search: '/search?client=firefox-b-1-d&q={}'
+      url: 'https://duckduckgo.com',
+      search: '/?q=test'
     },
     {
       category: 'General',
