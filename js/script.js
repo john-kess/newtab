@@ -11,7 +11,7 @@ let CONFIG = {
       name: 'DuckDuckGo',
       key: '*',
       url: 'https://duckduckgo.com',
-      search: '/?q=test'
+      search: '/?q={}'
     },
     {
       category: 'General',
